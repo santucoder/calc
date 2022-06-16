@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 String value= editnum.getText().toString();
                 int finalValue=Integer.parseInt(value);
                 int r= (int) squar(finalValue);
-                result.setText("Answer="+r);
+                result.setText("Square="+r);
             }
         });
 
